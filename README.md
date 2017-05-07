@@ -3,7 +3,7 @@
 1，规范：使用“comma, ok”的习惯用法
 
 来安全地测试值是否为一个字符串：
-str, ok := value.(string)if ok {
+if str, ok := value.(string) ；ok {
     fmt.Printf("string value is: %q\n", str)
 } else {
     fmt.Printf("value is not a string\n")
